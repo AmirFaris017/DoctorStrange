@@ -1,0 +1,35 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Login Page </title>  
+<link rel="stylesheet" href="index.css">
+</head>    
+<body>    
+    <div class="topnav">
+        <a class="navbar-brand" href="index.html">
+            <img src=""   alt="" />
+        </a>
+        <a  href="index.html">Home</a>
+        <a href="#news">About us</a>
+        <a href="#contact">Booking</a>
+        <div class="topnav-right">
+            <a class="active" href="login.html">Login</a>
+            <a  href="signUp.html">Sign Up</a>
+        </div>
+      </div>
+    <center> <h1> Log in </h1> </center>   
+    <form action="index.php" method="post">  
+        <div class="container">   
+            <label class="form">Email Address : </label>   
+            <input type="text" placeholder="Enter Email" name="email" required>  <br>
+            <label class="form">Password : </label>   
+            <input type="password" placeholder="Enter Password" name="password" required>  
+            <br>
+            <input type="radio" class="role" name="role" placeholder="Admin">Admin
+            <input type="radio" class="role" name="role" placeholder="Customer">Customer
+            <button type="submit">Sign in</button>  <br> 
+        </div>   
+    </form>     
+</body>     
+</html>  
